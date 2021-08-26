@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Details = () => {
+const Details = ({ place }) => {
 
   return (
     <div>
-      <h1>Details</h1>
+      <h1>{place.name}</h1>
     </div>
   )
 }
